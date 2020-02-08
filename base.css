@@ -67,3 +67,20 @@ ul#menu
 {
    background-color: rgb(71, 114, 97);
 }
+
+div#links h4 a
+{
+   color: #0c0c0c;
+}
+
+#img_index
+{
+   width:960px;height:360px;
+   margin: 5px 20px;
+}
+.infoimg_index
+{
+   width: 200px; height:150px;
+   margin:0px 0px 20px 20px;
+   float:right;
+}
