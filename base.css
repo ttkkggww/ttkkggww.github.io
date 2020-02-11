@@ -1,86 +1,108 @@
 @charset "utf-8";
-*
-{
-   margin: 0;padding: 0;
-}
-body 
-{
-   background-color:#ebeee1;
-   font-size: 95%;
-   font-family: "MS ゴシック",sans-serif;
-   line-height: 1.5;
-   color:#333333;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-div#pagebody
-{
-   width: 1000px; margin:0 auto;
-   background-color: #ffffff;
-   background-image:url("images/bg_pagebody.png");
-   background-repeat:repeat-y;
+body {
+    background-color: #ebeee1;
+    font-size: 95%;
+    font-family: "MS ゴシック", sans-serif;
+    line-height: 1.5;
+    color: #333333;
 }
 
-img{border:0;}
-
-div#header
-{
-   height: 80px;
+div#pagebody {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    background-image: url("images/bg_pagebody.png");
+    background-repeat: repeat-y;
 }
 
-div#header h1
-{
-   padding:10px 0px 5px 20px;
-   font-size:40px;
-   font-family:Arial, Helvetica, sans-serif;
-}
-div#header h1 a 
-{
-   text-decoration:none;
-   color: #0c0c0c;
-} 
-
-ul#menu
-{
-   width: 960px;height: 50px;
-   margin :0px 20px;
+img {
+    border: 0;
 }
 
-#menu li
-{
-   list-style-type: none;
-   display: inline;
-   float:left;
+div#header {
+    height: 80px;
 }
 
-#menu li a
-{
-   background-color: rgb(101, 170, 142);
-   color:rgb(41, 38, 30);
-   display:block;
-   width: 320px;height: 35px;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   text-decoration: none;
+div#header h1 {
+    padding: 10px 0px 5px 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#menu li a:hover
-{
-   background-color: rgb(71, 114, 97);
+div#header h1 a {
+    text-decoration: none;
+    color: #0c0c0c;
 }
 
-div#links h4 a
-{
-   color: #0c0c0c;
+ul#menu {
+    width: 960px;
+    height: 50px;
+    margin: 0px 20px;
 }
 
-#img_index
-{
-   width:960px;height:360px;
-   margin: 5px 20px;
+#menu li {
+    list-style-type: none;
+    display: inline;
+    float: left;
 }
-.infoimg_index
-{
-   width: 200px; height:150px;
-   margin:0px 0px 20px 20px;
-   float:right;
+
+#menu li a {
+    background-color: rgb(101, 170, 142);
+    color: rgb(41, 38, 30);
+    display: block;
+    width: 320px;
+    height: 35px;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: rgb(71, 114, 97);
+}
+
+div#links h4 a {
+    color: #0c0c0c;
+}
+
+/*============================================
+ヘッダ画像
+============================================*/
+
+#img_index {
+    width: 960px;
+    height: 360px;
+    margin: 5px 20px;
+}
+
+/*
+サブメニュー
+*/
+div#submenu{
+    width: 260px;
+    float: left;
+}
+
+/*
+インフォメーション
+*/
+div#info{
+    width: 660px;
+    float: left;
+}
+
+.infoimg_index {
+    width: 200px;
+    height: 150px;
+    margin: 0px 0px 20px 20px;
+    float: right;
+}
+
+hr {
+    clear: both;
 }
